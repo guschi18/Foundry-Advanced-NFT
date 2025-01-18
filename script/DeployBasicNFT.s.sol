@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.18;
 
-import "../src/BasicNFT.sol";
+import {BasicNFT} from "../src/BasicNFT.sol";
 import {Script} from "forge-std/Script.sol";
 
 contract DeployBasicNFT is Script {
@@ -13,3 +13,5 @@ contract DeployBasicNFT is Script {
         return basicNft;
     }
 }
+
+
